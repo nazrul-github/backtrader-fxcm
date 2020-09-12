@@ -14,7 +14,8 @@ setuptools.setup(
     install_requires=[
         'backtrader>=1.9',
         'pyyaml',
-        'fxcmpy'
+        'fxcmpy',
+        'python-socketio'
     ],
     classifiers=[
         "Development Status :: 1 - Alpha",
