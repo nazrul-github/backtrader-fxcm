@@ -8,7 +8,7 @@ from backtrader.utils.py3 import with_metaclass
 from backtrader.position import Position
 from backtrader.comminfo import CommInfoBase
 
-from fxcm.stores import fxcmStore
+from fxcm.stores import fxcmstore
 
 class fxcmCommInfo(CommInfoBase):
     def getvaluesize(self, size, price):
